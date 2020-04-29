@@ -9,7 +9,7 @@ spring:
       server:
         native:
           search-locations:
-            C:\Users\DellUser\Downloads\Discovery\Customer-Info\config-files\{application}\{profile}
+            C:/Users/DellUser/Downloads/Discovery/Customer-Info/config-files/{application}/{profile}
 ---
 spring:
   profiles: git
