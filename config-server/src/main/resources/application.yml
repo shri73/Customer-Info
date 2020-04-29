@@ -1,8 +1,22 @@
 spring:
+  profiles:
+    active: native
+---
+spring:
+  profiles: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            C:\Users\DellUser\Downloads\Discovery\Customer-Info\config-files\{application}\{profile}
+---
+spring:
+  profiles: git
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/isilona/microservices/
+          uri: https://github.com/shri73/Customer-Info/
           search-paths:
-            - "ms-config-properties/{application}/{profile}"
+            - "config-files/{application}/{profile}"
