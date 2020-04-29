@@ -17,6 +17,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/shri73/Customer-Info/
+          uri: https://github.com/shri73/Customer-Info.git
           search-paths:
-            - "config-files/{application}/{profile}"
+            - "config-files/{application}/{profile}.yml"
