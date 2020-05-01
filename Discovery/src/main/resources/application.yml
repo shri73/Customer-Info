@@ -1,6 +1,0 @@
-eureka:
-  client:
-    #Eureka client is instructed not to register itself upon start up
-    register-with-eureka: false
-    #not to search for other registry nodes to connect to, as there are none
-    fetch-registry: false
